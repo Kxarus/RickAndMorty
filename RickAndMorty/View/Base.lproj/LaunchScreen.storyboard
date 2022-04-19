@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startScreen2" translatesAutoresizingMaskIntoConstraints="NO" id="9Mc-am-9HA">
+                                <rect key="frame" x="8" y="44" width="374" height="171"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="171" id="SXI-bn-E9B"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="374" id="ToL-HQ-yv9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startScreen" translatesAutoresizingMaskIntoConstraints="NO" id="1hI-nY-gr5">
+                                <rect key="frame" x="25" y="263" width="340" height="318"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="318" id="WPS-Ie-Yks"/>
+                                    <constraint firstAttribute="width" constant="340" id="zeR-p0-8oY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.87088241850000003" blue="0.47616834390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Mc-am-9HA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="62c-58-2Wx"/>
+                            <constraint firstItem="1hI-nY-gr5" firstAttribute="top" secondItem="9Mc-am-9HA" secondAttribute="bottom" constant="48" id="8ev-ct-XdF"/>
+                            <constraint firstItem="9Mc-am-9HA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cxh-NM-rK9"/>
+                            <constraint firstItem="1hI-nY-gr5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uoP-4a-ysJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="startScreen" width="900" height="900"/>
+        <image name="startScreen2" width="1280" height="544"/>
+    </resources>
+</document>
